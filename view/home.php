@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-                       <!-- Heading  -->
-<h1> Welcome to  </h1>
-                      <!-- Stylesheet  -->
+  <head>
+    <title>Home</title>
+    <!-- Stylesheet  -->
 <link rel="stylesheet" type="text/css" href="../css/style.css">
         
-                                <!-- Header  -->
+        <!-- Header  -->
 <h6 id="Header"><?php include '../header/header.php';?></h6>
-
+  </head>
+  
                      <!-- Navbar Start  -->
 <div class="sticky">
 <div class="topnav">
@@ -26,6 +25,13 @@
 </div>
 
                     <!-- Navbar End  -->
+<body>
+
+                       <!-- Heading  -->
+<h1> Welcome to  </h1>
+                      
+
+
 
                       <!-- Footer  -->
 <?php include '../footer/footer.php';?> 
