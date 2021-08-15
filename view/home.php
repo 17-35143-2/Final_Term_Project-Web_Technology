@@ -18,12 +18,17 @@
     </head>
   
                      <!-- Navbar Start  -->
-                     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
+                     <nav class=" navbar navbar-expand-lg    sticky-top  navbar-dark bg-dark ">
                 <div class="container">
+                <a class="navbar-brand" href="#"><img src="../images/houselogo.jpg" alt="" width="40"></a>
 
-                   
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav justify-content-center  mx-5 p-0 ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav nav justify-content-center  me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
 
                                 <a class="nav-link text-white" href="../view/reg.php">REGISTRATION</a>
@@ -42,9 +47,11 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="../view/search.php">SEARCH</a>
                             </li>
+                           
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="../view/update.php">UPDATE PROFILE</a>
+                                <a class="nav-link text-white" href="../view/update.php">UPDATE</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="../view/add tenant.php">TENANT</a>
                             </li>
@@ -54,6 +61,9 @@
 
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="#catagories">CATAGORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#question">QUESTION</a>
                             </li>
                         </ul>
                                
@@ -73,7 +83,8 @@
 <h1 class="home"> <span class="orange">Welcome </span> To Our Rental Property Managemen System   </h1>
                       
 
- <!-- image slider  -->
+<main class="overflow-hidden">
+     <!-- image slider  -->
  <section>
             <div class="container">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -81,7 +92,7 @@
                         <div class="carousel-item p-5 active">
                             <div class="row p-5 panda-bg-info-backgraound bg-gradient d-flex align-items-center">
                                 <div class="col-lg-7">
-                                    <h1>Mega LCD TV For Sports</h1>
+                                    <h1>3d House</h1>
                                     <p>This is the best tv in the world for people who just want to waste time in front
                                         of tv.</p>
                                     <h1 class="price">$1200</h1>
@@ -95,7 +106,8 @@
                         <div class="carousel-item p-5">
                             <div class="row p-5 panda-bg-info-backgraound bg-gradient d-flex align-items-center">
                                 <div class="col-lg-7">
-                                    <h1>Cool Dude Headphone</h1>
+                                    <h1>3d House</h1>
+                                  
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world</p>
                                     <h1>$420</h1>
@@ -109,7 +121,8 @@
                         <div class="carousel-item p-5">
                             <div class="row p-5 panda-bg-info-backgraound bg-gradient d-flex align-items-center">
                                 <div class="col-lg-7">
-                                    <h1>X-Box for your living room</h1>
+                                <h1>3d House</h1>
+
                                     <p>This is the best x-box in the world for people who just want to waste time in
                                         front of fake sports.</p>
                                     <h1>$600</h1>
@@ -143,7 +156,7 @@
                     <div class="card h-100">
                         <img src="../images/house2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                            <h5 class="card-title">3d House</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
                                 magnam error ad amet id!</p>
                         </div>
@@ -193,7 +206,7 @@
                     <div class="card h-100">
                         <img src="../images/house 3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Motorcycles & Scooters</h5>
+                            <h5 class="card-title">3d House</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
                                 magnam error ad amet id!</p>
                         </div>
@@ -241,7 +254,7 @@
                     <div class="card h-100">
                         <img src="../images/house 4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">2021 Honda CBR500R</h5>
+                            <h5 class="card-title">3d House</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
                                 magnam error ad amet id!</p>
                         </div>
@@ -289,7 +302,7 @@
         </section>
 
                    <!-- Frequently  -->
-        <section class="frequent">
+        <section class="frequent" id="question">
    
                 <h1 class="frequent_header text-center">Frequently Asked <span class="orange">Questions</span></h1>
                <br>
@@ -360,7 +373,7 @@
         <footer>
     <section class="footer">
         <div class="footer-logo">
-            <a href="#"><img src="images/Logo.png" alt=""></a>
+            <a href="#"><img src="../images/house logo.png" alt="" width="130"></a>
 
             <!-- font awesome icon  -->
             <div class="icon">
@@ -378,7 +391,7 @@
     </section>
     <?php include '../footer/footer.php';?> 
 </footer>
-        
+</main>
 <!-- boostrap script  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
