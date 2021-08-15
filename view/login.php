@@ -1,9 +1,9 @@
                          <!-- Page Connect  -->
-<?php
-include('../control/logincheck.php');
+                         <?php
+include('../controller/logincheck.php');
 
 if(isset($_SESSION['username'])){
-header("location: home.php");
+ header("location: home.php");
 }
 ?>
 <!DOCTYPE html>
@@ -13,10 +13,10 @@ header("location: home.php");
 </head>
 
                          <!-- Stylesheet  -->
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                           <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6>
 
 
 <!-- Navbar Start  -->
@@ -38,7 +38,7 @@ header("location: home.php");
 <body>
 
                  <!-- Javascript  -->
-<script src="../js/loginValidation.js"></script>
+<script src="../view/js/loginValidation.js"></script>
 
                     <!-- Heading  -->
 <h1>Login</h1>
@@ -62,6 +62,6 @@ header("location: home.php");
 <br>
 </body>
                    <!-- Footer  -->
-  <?php include '../footer/footer.php';?> 
+  <?php include '../view/footer/footer.php';?> 
 </html>
 

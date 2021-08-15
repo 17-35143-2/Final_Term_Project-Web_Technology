@@ -6,10 +6,10 @@
 
 
                           <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                       <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6>
 </head>
 
 
@@ -17,7 +17,7 @@
                       <!-- Navbar Start  -->
 <div class="sticky">
 <div class="topnav">
-
+<a href="../View/home.php">HOME</a>
 <a href="../view/reg.php">REGISTRATION</a>
 <a href="../view/login.php">LOG IN</a>
 <a href="../view/profile.php">PROFILE</a>
@@ -34,7 +34,7 @@
 
 
 <!-- Javascript  -->
-<script src="../js/JsValidation.js"></script>
+<script src="../view/js/JsValidation.js"></script>
 
 
 
@@ -43,16 +43,16 @@
                  <!-- Page Connect  -->
 <?php
 
-include('../Control/regcheck.php');
+include('../Controller/regcheck.php');
 
 if(isset($_SESSION['username'])){
-header("location: ../control/regoutput.php");
+header("location: ../controller/regoutput.php");
 }
 ?>
 
 
                     <!-- Heading  -->
-<h1 id="Title">Registration</h1>
+<h1>Registration</h1>
 
 <b>
 
@@ -107,5 +107,5 @@ header("location: ../control/regoutput.php");
 </div>
 </body>
 <!-- Footer  -->
-<?php include '../footer/footer.php';?>
+<?php include '../view/footer/footer.php';?>
 </html>

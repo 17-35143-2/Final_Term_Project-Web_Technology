@@ -2,12 +2,12 @@
                    <!-- Page Connect  -->
 <?php
 
-include('../Control/profilecheck.php');
+include('../Controller/profilecheck.php');
 
-include('../Control/Updatecheck.php');
+include('../Controller/Updatecheck.php');
 
 if(isset($_SESSION['username'])){
-header("location: ../control/profileoutput.php");
+header("location: ../controller/profileoutput.php");
 }
 ?>
 
@@ -20,10 +20,10 @@ header("location: ../control/profileoutput.php");
 </head>
 
                  <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                      <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6>
 
 
 <!-- Navbar Start  -->
@@ -47,7 +47,7 @@ header("location: ../control/profileoutput.php");
 
                             <!-- Javascript  -->
 
-            <script src="../js/ProfileJsValidation.js"></script>
+            <script src="../view/js/ProfileJsValidation.js"></script>
 
                           <!-- Heading  -->
 <h1>Profile</h1>
@@ -98,7 +98,7 @@ header("location: ../control/profileoutput.php");
 <br>
 </body>
 <!-- Footer  -->
-<?php include '../footer/footer.php';?>
+<?php include '../view/footer/footer.php';?>
 </html>
 
 

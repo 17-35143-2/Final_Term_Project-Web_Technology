@@ -1,6 +1,6 @@
 <?php
-include('../control/db.php');
-include('../control/updatecheck.php');
+include('../controller/db.php');
+include('../controller/updatecheck.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,10 +10,10 @@ include('../control/updatecheck.php');
 <title>update</title>
 
                      <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                         <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6> <br><br>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6> <br><br>
 </head>
       <!-- Navbar Start  -->
       <div class="sticky">
@@ -125,5 +125,5 @@ if($userQuery->num_rows > 0){
 ?>  
 </body>
                         <!-- Footer  -->
-<?php include '../footer/footer.php';?>
+<?php include '../view/footer/footer.php';?>
 </html>

@@ -4,10 +4,10 @@
 
 
                           <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                           <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6> <br><br>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6> <br><br>
 </head>
 
                                <!-- Navbar Start  -->
@@ -49,11 +49,11 @@ Our property management system (PMS) is a software application for the operation
      
 </table>
 <button type="submit" name = "Login" class="btn">contact with Admin</button>
-<input type="button" onclick="window.location.href='http://localhost/Mycode/Final_Project/control/profileoutput.php';" value="View user Details" />
+<input type="button" onclick="window.location.href='http://localhost/Mycode/Rental Property Management/controller/check.php';" value="View user Details" />
 </form>
                
 </body>
                      <!-- Footer  -->
- <?php include '../footer/footer.php';?> 
+ <?php include '../view/footer/footer.php';?> 
 </html>
 

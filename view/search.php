@@ -5,10 +5,10 @@
 </head>
 
                        <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                         <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6>
 
 
                   <!-- Navbar Start  -->
@@ -40,7 +40,7 @@ function showmyuser() {
      document.getElementById("mytext").innerHTML = this.status;
   }
   };
-  xhttp.open("POST", "/Mycode/Final_Project/control/getuser.php", true);
+  xhttp.open("POST", "/Mycode/Rental Property Management/controller/getuser.php", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhttp.send("uname="+uname);
 }
@@ -54,4 +54,6 @@ function showmyuser() {
 <p id="mytext"></p>
 
 </body>
+ <!-- Footer  -->
+ <?php include '../view/footer/footer.php';?>
 </html>

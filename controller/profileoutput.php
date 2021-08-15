@@ -17,10 +17,10 @@ header("Location:../view/profile.php"); // Redirecting To Home Page
 <head>
     <title>ProfileOutput</title>
       <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
         
         <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6>
 </head>
 <!-- Navbar Start  -->
 <div class="sticky">
@@ -33,7 +33,7 @@ header("Location:../view/profile.php"); // Redirecting To Home Page
 <a href="../view/application.php">ONLINE RENTAL APPLICATION</a>
 <a href="../view/search.php">SEARCH</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 </div>
 </div>
 
@@ -75,5 +75,5 @@ echo "<br>";
 
 </body>
                   <!-- Footer  -->
-<?php include '../footer/footer.php';?> 
+<?php include '../view/footer/footer.php';?> 
 </html>

@@ -3,10 +3,10 @@
   <head>
     <title>Home</title>
     <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
         
         <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6>
 
                      <!-- boostrap stylesheet -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -56,7 +56,7 @@
                                 <a class="nav-link text-white" href="../view/add tenant.php">TENANT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="../control/logoutcheck.php">LOGOUT</a>
+                                <a class="nav-link text-white" href="../controller/logoutcheck.php">LOGOUT</a>
                             </li>
 
                             <li class="nav-item">
@@ -99,7 +99,7 @@
                                     <button class="btn btn-warning-backgraound text-white">Buy Now</button>
                                 </div>
                                 <div class="col-lg-5">
-                                    <img src="../images/house 1.jpg" class="d-block w-100" alt="...">
+                                    <img src="../view/images/house 1.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                     <button class="btn btn-warning-backgraound text-white">Buy Now</button>
                                 </div>
                                 <div class="col-lg-5">
-                                    <img src="../images/house  5.jpg" class="d-block w-100" alt="...">
+                                    <img src="../view/images/house  5.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@
                                     <button class="btn btn-warning-backgraound text-white">Buy Now</button>
                                 </div>
                                 <div class="col-lg-5">
-                                    <img src="../images/house 6.jpg" class="d-block w-100" alt="...">
+                                    <img src="../view/images/house 6.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                         </div>
@@ -147,14 +147,15 @@
                 </div>
             </div>
         </section>
+                                <!-- image slider end  -->
 
          <!-- House Catagories  -->
          <section class="fetured" id="catagories">
             <h1 class="text-center"> House <span class="orange">Catagories</span></h1>
             <div class="row row-cols-1 row-cols-md-3 g-5 p-5">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="../images/house2.jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded border border-danger border border-3 rounded">
+                        <img src="../view/images/house2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">3d House</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
@@ -203,8 +204,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="../images/house 3.jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded border border-danger border border-3 rounded">
+                        <img src="../view/images/house 3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">3d House</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
@@ -251,8 +252,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="../images/house 4.jpg" class="card-img-top" alt="...">
+                    <div class="card h-100 shadow p-3 mb-5 bg-body rounded border border-danger border border-3 rounded">
+                        <img src="../view/images/house 4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">3d House</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
@@ -373,7 +374,7 @@
         <footer>
     <section class="footer">
         <div class="footer-logo">
-            <a href="#"><img src="../images/house logo.png" alt="" width="130"></a>
+            <a href="#"><img src="../view/images/house logo.png"  alt="" width="130"></a>
 
             <!-- font awesome icon  -->
             <div class="icon">
@@ -389,7 +390,7 @@
 
 
     </section>
-    <?php include '../footer/footer.php';?> 
+    <?php include '../view/footer/footer.php';?> 
 </footer>
 </main>
 <!-- boostrap script  -->

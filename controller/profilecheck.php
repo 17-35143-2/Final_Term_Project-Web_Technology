@@ -1,5 +1,5 @@
 <?php
-include('user.txt');
+// include('user.txt');
 
 session_start(); 
 $username =$email =  $DOB = $password=   $address=  $gender =     "";

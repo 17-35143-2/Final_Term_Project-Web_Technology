@@ -5,10 +5,10 @@
 
 
                        <!-- Stylesheet  -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../view/css/style.css">
 
                           <!-- Header  -->
-<h6 id="Header"><?php include '../header/header.php';?></h6><br><br>
+<h6 id="Header"><?php include '../view/header/header.php';?></h6><br><br>
 </head>
                         <!-- Navbar Start  -->
                         <div class="sticky">
@@ -31,7 +31,7 @@
 
 <?php
 
-include('../Control/appcheck.php');
+include('../Controller/appcheck.php');
 
 if(isset($_SESSION['username'])){
 header("location: home.php");
@@ -367,5 +367,5 @@ header("location: home.php");
              
               <br><br>
                     <!-- Footer  -->
-  <?php include '../footer/footer.php';?> 
+  <?php include '../view/footer/footer.php';?> 
   </html>
