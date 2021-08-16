@@ -48,6 +48,66 @@
   color: orangered;
   
 }
+.red{
+  color: red;
+  
+}
+#Button{
+  background-color: rgb(90, 3, 64);
+  padding: 12px;
+ 
+ margin: 10px;
+color: seashell;
+text-transform: capitalize;
+font-weight: 800px;
+}
+#Button:hover{
+  background-color: rgb(173, 11, 173);
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out 
+}
+#jButton{
+  background-color: rgb(90, 3, 64);
+  padding: 12px;
+ 
+ margin: 10px;
+color: seashell;
+text-transform: capitalize;
+font-weight: 800px;
+}
+#jButton:hover{
+  background-color: rgb(163, 68, 13);
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out 
+}
+#jCancle{
+  background-color: rgb(90, 3, 64);
+  padding: 12px;
+ 
+ margin: 10px;
+color: seashell;
+text-transform: capitalize;
+font-weight: 800px;
+}
+#jCancle:hover{
+  background-color: rgb(151, 16, 16);
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out 
+}
+#update{
+  background-color: rgb(90, 3, 64);
+  padding: 12px;
+ 
+ margin: 10px;
+color: seashell;
+text-transform: capitalize;
+font-weight: 800px;
+}
+#update:hover{
+  background-color: rgb(221, 97, 15);
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out 
+}
 
   /* Style the topnav links */
   .topnav a {
@@ -154,3 +214,4 @@ justify-content: space-evenly;
 	margin: 0;
 	padding-left: 0px;
 }
+

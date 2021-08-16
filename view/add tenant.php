@@ -19,7 +19,7 @@
 <a href="../view/application.php">ONLINE RENTAL APPLICATION</a>
 <a href="../view/reg.php">REGISTRATION</a>
 <a href="../view/login.php">LOG IN</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 </div>
 </div>
                        <!-- Navbar End  -->
@@ -48,8 +48,8 @@ Our property management system (PMS) is a software application for the operation
      </tr>
      
 </table>
-<button type="submit" name = "Login" class="btn">contact with Admin</button>
-<input type="button" onclick="window.location.href='http://localhost/Mycode/Rental Property Management/controller/check.php';" value="View user Details" />
+<button type="submit" name = "Login"  id="Button" class="btn">contact with Admin</button>
+<input type="button"  id="Button" onclick="window.location.href='http://localhost/Mycode/MVC/controller/check.php';" value="View user Details" />
 </form>
                
 </body>

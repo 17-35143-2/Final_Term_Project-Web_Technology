@@ -27,7 +27,7 @@ include('../controller/updatecheck.php');
 <a href="../view/reg.php">REGISTRATION</a>
 <a href="../view/login.php">LOG IN</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 
 </div>
 </div>
@@ -76,8 +76,9 @@ include('../controller/updatecheck.php');
 
                              <!-- Button  -->
   <input type="submit" name="update" id="jButton" value="update">
-  </form>
   <a href="search.php"><br><button name="cancel"  id="jCancle">Cancel</button></a><br>
+
+  </form>
   
 
 

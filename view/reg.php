@@ -25,7 +25,7 @@
 <a href="../view/update.php">UPDATE PROFILE</a>
 <a href="../view/search.php">SEARCH</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 </div>
 </div>
                       <!-- Navbar End  -->

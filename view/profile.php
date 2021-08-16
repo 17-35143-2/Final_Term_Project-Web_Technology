@@ -37,7 +37,7 @@ header("location: ../controller/profileoutput.php");
 <a href="../view/reg.php">REGISTRATION</a>
 <a href="../view/login.php">LOG IN</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 </div>
 </div>
                              <!-- Navbar End  -->

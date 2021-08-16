@@ -29,7 +29,7 @@ if(isset($_SESSION['username'])){
 <a href="../view/application.php">ONLINE RENTAL APPLICATION</a>
 <a href="../view/search.php">SEARCH</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 
   </div>
 </div>
@@ -55,8 +55,8 @@ if(isset($_SESSION['username'])){
 
 
                                <!-- Button  -->
-<input name="submit" type="submit" value="Login">
-<input name="reset" type="reset" value="reset"><br>
+  <input type="submit" name="submit" id="Button" value="Submit">
+  <input type="reset" name="reset" id="Button" value="reset"><br>
 
 </form>
 <br>

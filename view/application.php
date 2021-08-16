@@ -20,7 +20,7 @@
 <a href="../view/reg.php">REGISTRATION</a>
 <a href="../view/login.php">LOG IN</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 </div>
 </div>
 
@@ -353,7 +353,9 @@ header("location: home.php");
   
 
                           <!-- button            -->
-  <input type="submit" value="Submit your rental application form" /> <br>
+
+  <input type="submit" name="submit" id="Button" value="Submit your rental application form">
+ 
     
 </form> 
   <br>

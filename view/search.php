@@ -21,7 +21,7 @@
 <a href="../view/reg.php">REGISTRATION</a>
 <a href="../view/login.php">LOG IN</a>
 <a href="../view/add tenant.php">TENANT</a>
-<a href="../control/logoutcheck.php">LOGOUT</a>
+<a href="../controller/logoutcheck.php">LOGOUT</a>
 </div>
 </div>
                          <!-- Navbar End  -->
@@ -40,7 +40,7 @@ function showmyuser() {
      document.getElementById("mytext").innerHTML = this.status;
   }
   };
-  xhttp.open("POST", "/Mycode/Rental Property Management/controller/getuser.php", true);
+  xhttp.open("POST", "/Mycode/MVC/controller/getuser.php", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhttp.send("uname="+uname);
 }

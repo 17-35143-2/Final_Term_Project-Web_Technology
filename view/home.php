@@ -92,10 +92,9 @@
                         <div class="carousel-item p-5 active">
                             <div class="row p-5 panda-bg-info-backgraound bg-gradient d-flex align-items-center">
                                 <div class="col-lg-7">
-                                    <h1>3d House</h1>
-                                    <p>This is the best tv in the world for people who just want to waste time in front
-                                        of tv.</p>
-                                    <h1 class="price">$1200</h1>
+                                    <h1>Rental Apartment</h1>
+                                    <p>The buildings were fabricated with both precast and 3D printed components. The buildings stand as the first complete structures of their kind fabricated using construction 3D printing technologies.</p>
+                                    <h1 class="sqt">1200sqt</h1>
                                     <button class="btn btn-warning-backgraound text-white">Buy Now</button>
                                 </div>
                                 <div class="col-lg-5">
@@ -106,11 +105,10 @@
                         <div class="carousel-item p-5">
                             <div class="row p-5 panda-bg-info-backgraound bg-gradient d-flex align-items-center">
                                 <div class="col-lg-7">
-                                    <h1>3d House</h1>
+                                    <h1>Rental Apartment</h1>
                                   
-                                    <p>This is the best headphone in the world for people who just want to waste time in
-                                        front of funky world</p>
-                                    <h1>$420</h1>
+                                    <p>The process of 3D printing houses is more efficient in terms of energy and material usage when compared to traditional construction.</p>
+                                    <h1 class="sqt">1400sqt</h1>
                                     <button class="btn btn-warning-backgraound text-white">Buy Now</button>
                                 </div>
                                 <div class="col-lg-5">
@@ -121,11 +119,10 @@
                         <div class="carousel-item p-5">
                             <div class="row p-5 panda-bg-info-backgraound bg-gradient d-flex align-items-center">
                                 <div class="col-lg-7">
-                                <h1>3d House</h1>
+                                <h1>Rental Apartment</h1>
 
-                                    <p>This is the best x-box in the world for people who just want to waste time in
-                                        front of fake sports.</p>
-                                    <h1>$600</h1>
+                                    <p>The buildings were fabricated with both precast and 3D printed components. The buildings stand as the first complete structures of their kind fabricated using construction 3D printing technologies.</p>
+                                    <h1 class="sqt">1600sqt</h1>
                                     <button class="btn btn-warning-backgraound text-white">Buy Now</button>
                                 </div>
                                 <div class="col-lg-5">
@@ -158,8 +155,7 @@
                         <img src="../view/images/house2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">3d House</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
-                                magnam error ad amet id!</p>
+                            <p class="card-text">The process of 3D printing houses is more efficient in terms of energy and material usage when compared to traditional construction.</p>
                         </div>
                        
                         <div class="card-footer">
@@ -182,15 +178,11 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-
-                                        <h2>৳ 538,000</h2>
-                                        <p>Key Features: The Indonesian HONDA CBR 150R is the fans’ favorite offering
-                                            from
-                                            Bangladesh Honda Private Limited. This bike features a 150 cc segment engine
-                                            and
-                                            aggressive approach to its Super Sports styling. With its attractive
-                                            styling, it
-                                            snatches the attention of people.</p>
+<h1>1200sqt</h1>
+                                        <h2>৳ 20,000</h2>
+                                        <p>In this rental apartment, here are two bedrooms, one dining,one kitchen,one belcony two washroom available.
+   <span class="red"> 24/7 electricity, gas, water faciliyy available. Also the security is very high.</span>
+ </p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -208,8 +200,7 @@
                         <img src="../view/images/house 3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">3d House</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
-                                magnam error ad amet id!</p>
+                            <p class="card-text">The buildings were fabricated with both precast and 3D printed components. The buildings stand as the first complete structures of their kind fabricated using construction 3D printing technologies.</p>
                         </div>
                         <div class="card-footer">
 <!-- Read More Button  -->
@@ -231,15 +222,10 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-
-                                        <h2>৳ 538,000</h2>
-                                        <p>Key Features: The Indonesian HONDA CBR 150R is the fans’ favorite offering
-                                            from
-                                            Bangladesh Honda Private Limited. This bike features a 150 cc segment engine
-                                            and
-                                            aggressive approach to its Super Sports styling. With its attractive
-                                            styling, it
-                                            snatches the attention of people.</p>
+                                    <h1>1400sqt</h1>
+                                        <h2>৳ 25,000</h2>
+                                        <p>This apartment is perfect for family members.It includes one masterbedroom, two bedroom,living room, dining room,one kitchen,two belcony,three bathrooms.
+   <span class="red"> This apartment provides a great service of electricity, generator, Wi-Fi connection, gas,water, strong security and an open space for gardening.</span></p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -256,8 +242,7 @@
                         <img src="../view/images/house 4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">3d House</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
-                                magnam error ad amet id!</p>
+                            <p class="card-text">The purpose of a good 3D planning software is to enable clients to visualize their house, valorizing the layout and design which makes it realistic, life-like images, which reassure the client of their choice and bring them closer to signing the final sale agreement</p>
                         </div>
                         <div class="card-footer">
 <!-- Read More Button  -->
@@ -279,15 +264,10 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-
-                                        <h2>৳ 538,000</h2>
-                                        <p>Key Features: The Indonesian HONDA CBR 150R is the fans’ favorite offering
-                                            from
-                                            Bangladesh Honda Private Limited. This bike features a 150 cc segment engine
-                                            and
-                                            aggressive approach to its Super Sports styling. With its attractive
-                                            styling, it
-                                            snatches the attention of people.</p>
+                                    <h1>1200sqt</h1>
+                                        <h2>৳ 30,000</h2>
+                                        <p>This apartment is very big and has open space which has three bedrooms, an open kitchen,reading room, dining, drawing, belcony, three washrooms.
+   <span class="red"> This apartment is expensive and very good environment for living. In the west side, there is a great view by opening big window. The service, facility all are highly required. Also there is a swimming pool in the roof top.</span></p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -314,17 +294,15 @@
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                         aria-controls="panelsStayOpen-collapseOne">
-                                        What are t he most impor tant t hings I should
-                                        know about riding a bike?
+                                        What are the most important things tenant should follow during rent an apartment?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="panelsStayOpen-headingOne">
                                     <div class="accordion-body">
-                                        <strong>Safety First! Always obey t he rules of t he road. Obey all traffic
-                                            signals, signs, and laws. Get in t he mindset of “driving” your
-                                            bike—not just “riding” your bike. This will help you be a more
-                                            focused and legally compliant bike rider.
+                                        <strong>
+    Tenants must have to keep the House  clean. They should not disturb their neighbours by noise or something. The rent should be clear within the first weak of the month and shiuld follow the rules and safety of the building 
+.
                                     </div>
                                 </div>
                             </div>
@@ -334,16 +312,14 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseThree">
-                                        My bike has been in storage is it safe to ride?
+                                        What are the most important things tenant should follow during rent an apartment?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="panelsStayOpen-headingThree">
                                     <div class="accordion-body">
-                                        <strong>Safety First! Always obey t he rules of t he road. Obey all traffic
-                                            signals, signs, and laws. Get in t he mindset of “driving” your
-                                            bike—not just “riding” your bike. This will help you be a more
-                                            focused and legally compliant bike rider.
+                                        <strong>
+    Tenants must have to keep the House  clean. They should not disturb their neighbours by noise or something. The rent should be clear within the first weak of the month and shiuld follow the rules and safety of the building .
                                     </div>
                                 </div>
                             </div>
@@ -352,16 +328,15 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseThree">
-                                        What rules should I follow when riding my bike?
+                                        What are the most important things tenant should follow during rent an apartment?
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="panelsStayOpen-headingThree">
                                     <div class="accordion-body">
-                                        <strong>Safety First! Always obey t he rules of t he road. Obey all traffic
-                                            signals, signs, and laws. Get in t he mindset of “driving” your
-                                            bike—not just “riding” your bike. This will help you be a more
-                                            focused and legally compliant bike rider.
+                                        <strong>
+    Tenants must have to keep the House  clean. They should not disturb their neighbours by noise or something. The rent should be clear within the first weak of the month and shiuld follow the rules and safety of the building 
+.
                                     </div>
                                 </div>
                             </div>
